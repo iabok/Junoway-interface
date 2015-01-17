@@ -1,0 +1,41 @@
+/*
+ Sytlesheet Name: Main 
+ By Abok Isaac
+ @version: 1.0.0
+ @contact: abokisaac@gmail.com
+ Follow me on Twitter: @iabok
+*/
+
+/* ************************** */
+
+//Global CSS classes used for all template.
+//@import "menu_sideslide";
+
+
+//compass library
+@import "juno_mixins/juno_mixins";
+
+//compass inbuilt blueprint library
+//@import "blueprint";
+
+//Bootstrapp sass files
+@import "bootstrap";
+
+//animate sass files
+@import "animate/fading_entrances/fadeIn";
+
+//compass library
+@import "base";
+
+//Junoway Header section style
+@import "juno_header";
+
+//Junoway content section style
+@import "juno_content";
+
+//Junoway subscriptions style sheets
+@import "Subscriptions/subscritpions";
+
+
+//Junoway footer section style
+@import "juno_footer";
