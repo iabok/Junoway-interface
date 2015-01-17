@@ -8247,7 +8247,7 @@ body {
 }
 
 /* Homepage Header stylesheet */
-/* line 6, ../sass/_juno_header.scss */
+/* line 6, ../sass/Homepage/_juno_header.scss */
 .navbar-inverse, .navbar-sub {
   background-color: #000000;
   background: transparent;
@@ -8255,7 +8255,7 @@ body {
   border: none;
 }
 
-/* line 14, ../sass/_juno_header.scss */
+/* line 14, ../sass/Homepage/_juno_header.scss */
 .navbar-brand {
   background-image: url("../images/junoway_logo.png");
   width: 150px;
@@ -8268,7 +8268,7 @@ body {
   top: 10px;
 }
 
-/* line 27, ../sass/_juno_header.scss */
+/* line 27, ../sass/Homepage/_juno_header.scss */
 ul.juno-tabs {
   margin: 0;
   padding: 0;
@@ -8300,7 +8300,7 @@ ul.juno-tabs li.last {
 }
 
 @media screen and (max-width: 360px) {
-  /* line 31, ../sass/_juno_header.scss */
+  /* line 31, ../sass/Homepage/_juno_header.scss */
   #myCarousel {
     overflow: hidden;
     *zoom: 1;
@@ -8308,25 +8308,25 @@ ul.juno-tabs li.last {
   }
 }
 
-/* line 41, ../sass/_juno_header.scss */
+/* line 41, ../sass/Homepage/_juno_header.scss */
 .juno-hiring, .juno-login {
   width: 100px;
   height: 50px;
 }
 
-/* line 59, ../sass/_juno_header.scss */
+/* line 59, ../sass/Homepage/_juno_header.scss */
 .slides {
   padding: 0;
   margin: 0;
 }
-/* line 62, ../sass/_juno_header.scss */
+/* line 62, ../sass/Homepage/_juno_header.scss */
 .slides li {
   padding: 0;
   margin: 0;
   max-height: 500px;
 }
 
-/* line 75, ../sass/_juno_header.scss */
+/* line 75, ../sass/Homepage/_juno_header.scss */
 .juno-caption {
   position: relative;
   font-size: bold;
@@ -8335,12 +8335,12 @@ ul.juno-tabs li.last {
   z-index: 9999;
   clear: both;
 }
-/* line 87, ../sass/_juno_header.scss */
+/* line 87, ../sass/Homepage/_juno_header.scss */
 .juno-caption p {
   color: #ffffff;
 }
 
-/* line 95, ../sass/_juno_header.scss */
+/* line 95, ../sass/Homepage/_juno_header.scss */
 .btn-hiring {
   border: none;
   border-radius: 0px;
@@ -8348,7 +8348,7 @@ ul.juno-tabs li.last {
   font-size: 14px;
 }
 
-/* line 103, ../sass/_juno_header.scss */
+/* line 103, ../sass/Homepage/_juno_header.scss */
 .btn-login {
   width: 100px;
   border: none;
@@ -8357,7 +8357,7 @@ ul.juno-tabs li.last {
   font-size: 14px;
 }
 
-/* line 113, ../sass/_juno_header.scss */
+/* line 113, ../sass/Homepage/_juno_header.scss */
 .hiring-note, .login-note {
   color: #ffffff;
   font-size: 12px;
@@ -8367,13 +8367,13 @@ ul.juno-tabs li.last {
   left: 10px;
 }
 
-/* line 125, ../sass/_juno_header.scss */
+/* line 125, ../sass/Homepage/_juno_header.scss */
 .login-note {
   text-align: center;
   left: 30px;
 }
 
-/* line 131, ../sass/_juno_header.scss */
+/* line 131, ../sass/Homepage/_juno_header.scss */
 .juno-slider {
   padding: 0px;
   position: relative;
@@ -8391,7 +8391,7 @@ ul.juno-tabs li.last {
   clear: both;
 }
 
-/* line 149, ../sass/_juno_header.scss */
+/* line 149, ../sass/Homepage/_juno_header.scss */
 .btn-join {
   position: relative;
   top: -40px;
@@ -8399,7 +8399,7 @@ ul.juno-tabs li.last {
 
 /* End Homepage Header stylesheet */
 /* Homepage Style sheets */
-/* line 6, ../sass/_juno_content.scss */
+/* line 6, ../sass/Homepage/_juno_content.scss */
 .juno-content {
   font-size: 16px;
   line-height: 25px;
@@ -8407,21 +8407,21 @@ ul.juno-tabs li.last {
   top: 30px;
 }
 
-/* line 14, ../sass/_juno_content.scss */
+/* line 14, ../sass/Homepage/_juno_content.scss */
 .row-space {
   margin-top: 100px;
 }
 
-/* line 18, ../sass/_juno_content.scss */
+/* line 18, ../sass/Homepage/_juno_content.scss */
 .info-header {
   text-indent: 30px;
 }
 
-/* line 22, ../sass/_juno_content.scss */
+/* line 22, ../sass/Homepage/_juno_content.scss */
 .juno-sub-header-bg {
   background-color: #636363;
 }
-/* line 25, ../sass/_juno_content.scss */
+/* line 25, ../sass/Homepage/_juno_content.scss */
 .juno-sub-header-bg h1 {
   color: #f2f2f2;
   text-align: center;
@@ -8430,27 +8430,27 @@ ul.juno-tabs li.last {
   top: 20px;
 }
 
-/* line 35, ../sass/_juno_content.scss */
+/* line 35, ../sass/Homepage/_juno_content.scss */
 .juno-join {
   position: relative;
   top: -50px;
 }
 
 @media screen and (max-width: 360px) {
-  /* line 43, ../sass/_juno_content.scss */
+  /* line 43, ../sass/Homepage/_juno_content.scss */
   .juno-header-note h1 {
     font-size: 30px;
   }
 }
 
-/* line 52, ../sass/_juno_content.scss */
+/* line 52, ../sass/Homepage/_juno_content.scss */
 .juno-member-join {
   position: relative;
   top: -20px;
   margin-bottom: 30px;
 }
 @media screen and (max-width: 360px) {
-  /* line 52, ../sass/_juno_content.scss */
+  /* line 52, ../sass/Homepage/_juno_content.scss */
   .juno-member-join {
     position: relative;
     left: -300px;
@@ -8458,20 +8458,20 @@ ul.juno-tabs li.last {
   }
 }
 @media screen and (min-width: 360px) and (max-width: 768px) {
-  /* line 52, ../sass/_juno_content.scss */
+  /* line 52, ../sass/Homepage/_juno_content.scss */
   .juno-member-join {
     font-size: 16px;
     margin-left: -200px;
   }
 }
 @media screen and (min-width: 761px) and (max-width: 999px) {
-  /* line 52, ../sass/_juno_content.scss */
+  /* line 52, ../sass/Homepage/_juno_content.scss */
   .juno-member-join {
     margin-left: -150px;
   }
 }
 
-/* line 79, ../sass/_juno_content.scss */
+/* line 79, ../sass/Homepage/_juno_content.scss */
 .btn-member, .btn-join {
   background-color: #00a651;
   border-radius: 0px;
@@ -8772,12 +8772,12 @@ ul.juno-tabs li.last {
 }
 
 /* Homepage Footer stylesheet */
-/* line 6, ../sass/_juno_footer.scss */
+/* line 6, ../sass/Homepage/_juno_footer.scss */
 #footer #footer-background {
   background-color: #000000;
 }
 
-/* line 12, ../sass/_juno_footer.scss */
+/* line 12, ../sass/Homepage/_juno_footer.scss */
 .juno-link-items {
   margin: 0;
   padding: 0;
@@ -8810,25 +8810,25 @@ ul.juno-tabs li.last {
   padding-right: 0;
 }
 
-/* line 19, ../sass/_juno_footer.scss */
+/* line 19, ../sass/Homepage/_juno_footer.scss */
 .juno-copyright {
   font-size: 14px;
   position: relative;
   top: 50px;
 }
 
-/* line 26, ../sass/_juno_footer.scss */
+/* line 26, ../sass/Homepage/_juno_footer.scss */
 .juno-items-right {
   position: relative;
   top: 50px;
 }
 
-/* line 33, ../sass/_juno_footer.scss */
+/* line 33, ../sass/Homepage/_juno_footer.scss */
 .row-footer-space {
   margin-bottom: 20px;
 }
 
-/* line 37, ../sass/_juno_footer.scss */
+/* line 37, ../sass/Homepage/_juno_footer.scss */
 #footer-note {
   font-size: 16px;
   text-align: center;
