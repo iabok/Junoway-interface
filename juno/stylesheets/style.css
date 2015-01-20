@@ -4238,28 +4238,28 @@ select[multiple].input-lg,
 }
 
 /* line 75, ../sass/bootstrap/_buttons.scss */
-.btn-warning, .btn-hiring {
+.btn-warning, .btn-hiring, .btn-user-login {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236;
 }
 /* line 11, ../sass/bootstrap/mixins/_buttons.scss */
-.btn-warning:hover, .btn-hiring:hover, .btn-warning:focus, .btn-hiring:focus, .btn-warning.focus, .focus.btn-hiring, .btn-warning:active, .btn-hiring:active, .btn-warning.active, .active.btn-hiring, .open > .btn-warning.dropdown-toggle, .open > .dropdown-toggle.btn-hiring {
+.btn-warning:hover, .btn-hiring:hover, .btn-user-login:hover, .btn-warning:focus, .btn-hiring:focus, .btn-user-login:focus, .btn-warning.focus, .focus.btn-hiring, .focus.btn-user-login, .btn-warning:active, .btn-hiring:active, .btn-user-login:active, .btn-warning.active, .active.btn-hiring, .active.btn-user-login, .open > .btn-warning.dropdown-toggle, .open > .dropdown-toggle.btn-hiring, .open > .dropdown-toggle.btn-user-login {
   color: #fff;
   background-color: #ec971f;
   border-color: #d58512;
 }
 /* line 21, ../sass/bootstrap/mixins/_buttons.scss */
-.btn-warning:active, .btn-hiring:active, .btn-warning.active, .active.btn-hiring, .open > .btn-warning.dropdown-toggle, .open > .dropdown-toggle.btn-hiring {
+.btn-warning:active, .btn-hiring:active, .btn-user-login:active, .btn-warning.active, .active.btn-hiring, .active.btn-user-login, .open > .btn-warning.dropdown-toggle, .open > .dropdown-toggle.btn-hiring, .open > .dropdown-toggle.btn-user-login {
   background-image: none;
 }
 /* line 29, ../sass/bootstrap/mixins/_buttons.scss */
-.btn-warning.disabled, .disabled.btn-hiring, .btn-warning.disabled:hover, .disabled.btn-hiring:hover, .btn-warning.disabled:focus, .disabled.btn-hiring:focus, .btn-warning.disabled.focus, .disabled.focus.btn-hiring, .btn-warning.disabled:active, .disabled.btn-hiring:active, .btn-warning.disabled.active, .disabled.active.btn-hiring, .btn-warning[disabled], [disabled].btn-hiring, .btn-warning[disabled]:hover, [disabled].btn-hiring:hover, .btn-warning[disabled]:focus, [disabled].btn-hiring:focus, .btn-warning[disabled].focus, [disabled].focus.btn-hiring, .btn-warning[disabled]:active, [disabled].btn-hiring:active, .btn-warning[disabled].active, [disabled].active.btn-hiring, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-hiring, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-hiring:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-hiring:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .focus.btn-hiring, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-hiring:active, fieldset[disabled] .btn-warning.active, fieldset[disabled] .active.btn-hiring {
+.btn-warning.disabled, .disabled.btn-hiring, .disabled.btn-user-login, .btn-warning.disabled:hover, .disabled.btn-hiring:hover, .disabled.btn-user-login:hover, .btn-warning.disabled:focus, .disabled.btn-hiring:focus, .disabled.btn-user-login:focus, .btn-warning.disabled.focus, .disabled.focus.btn-hiring, .disabled.focus.btn-user-login, .btn-warning.disabled:active, .disabled.btn-hiring:active, .disabled.btn-user-login:active, .btn-warning.disabled.active, .disabled.active.btn-hiring, .disabled.active.btn-user-login, .btn-warning[disabled], [disabled].btn-hiring, [disabled].btn-user-login, .btn-warning[disabled]:hover, [disabled].btn-hiring:hover, [disabled].btn-user-login:hover, .btn-warning[disabled]:focus, [disabled].btn-hiring:focus, [disabled].btn-user-login:focus, .btn-warning[disabled].focus, [disabled].focus.btn-hiring, [disabled].focus.btn-user-login, .btn-warning[disabled]:active, [disabled].btn-hiring:active, [disabled].btn-user-login:active, .btn-warning[disabled].active, [disabled].active.btn-hiring, [disabled].active.btn-user-login, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-hiring, fieldset[disabled] .btn-user-login, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-hiring:hover, fieldset[disabled] .btn-user-login:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-hiring:focus, fieldset[disabled] .btn-user-login:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .focus.btn-hiring, fieldset[disabled] .focus.btn-user-login, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-hiring:active, fieldset[disabled] .btn-user-login:active, fieldset[disabled] .btn-warning.active, fieldset[disabled] .active.btn-hiring, fieldset[disabled] .active.btn-user-login {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
 /* line 40, ../sass/bootstrap/mixins/_buttons.scss */
-.btn-warning .badge, .btn-hiring .badge {
+.btn-warning .badge, .btn-hiring .badge, .btn-user-login .badge {
   color: #f0ad4e;
   background-color: #fff;
 }
@@ -6249,17 +6249,17 @@ a.thumbnail.active {
 }
 
 /* line 57, ../sass/bootstrap/_alerts.scss */
-.alert-success {
+.alert-success, .juno-activation {
   background-color: #dff0d8;
   border-color: #d6e9c6;
   color: #3c763d;
 }
 /* line 8, ../sass/bootstrap/mixins/_alerts.scss */
-.alert-success hr {
+.alert-success hr, .juno-activation hr {
   border-top-color: #c9e2b3;
 }
 /* line 11, ../sass/bootstrap/mixins/_alerts.scss */
-.alert-success .alert-link {
+.alert-success .alert-link, .juno-activation .alert-link {
   color: #2b542c;
 }
 
@@ -8657,7 +8657,7 @@ ul.juno-tabs li.last {
 }
 
 /* line 166, ../sass/Subscriptions/_subscritpions.scss */
-.sub-row-space {
+.sub-row-space, .alert-row-space {
   margin-bottom: 50px;
 }
 
@@ -8781,13 +8781,37 @@ ul.juno-tabs li.last {
   margin-left: 30px;
 }
 
+/* line 1, ../sass/Alerts/_alerts.scss */
+.juno-activation-success {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* line 6, ../sass/Alerts/_alerts.scss */
+.juno-activation-header {
+  color: #24537a;
+  font-weight: 600;
+  font-size: 35px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* line 17, ../sass/Alerts/_alerts.scss */
+.btn-user-login {
+  border-radius: 0px;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
 /* Homepage Footer stylesheet */
 /* line 6, ../sass/Homepage/_juno_footer.scss */
 #footer #footer-background {
   background-color: #000000;
 }
+/* line 11, ../sass/Homepage/_juno_footer.scss */
+#footer #footer-background-1 {
+  background: none;
+}
 
-/* line 12, ../sass/Homepage/_juno_footer.scss */
+/* line 16, ../sass/Homepage/_juno_footer.scss */
 .juno-link-items {
   margin: 0;
   padding: 0;
@@ -8820,25 +8844,25 @@ ul.juno-tabs li.last {
   padding-right: 0;
 }
 
-/* line 19, ../sass/Homepage/_juno_footer.scss */
+/* line 23, ../sass/Homepage/_juno_footer.scss */
 .juno-copyright {
   font-size: 14px;
   position: relative;
   top: 50px;
 }
 
-/* line 26, ../sass/Homepage/_juno_footer.scss */
+/* line 30, ../sass/Homepage/_juno_footer.scss */
 .juno-items-right {
   position: relative;
   top: 50px;
 }
 
-/* line 33, ../sass/Homepage/_juno_footer.scss */
+/* line 37, ../sass/Homepage/_juno_footer.scss */
 .row-footer-space {
   margin-bottom: 20px;
 }
 
-/* line 37, ../sass/Homepage/_juno_footer.scss */
+/* line 41, ../sass/Homepage/_juno_footer.scss */
 #footer-note {
   font-size: 16px;
   text-align: center;
