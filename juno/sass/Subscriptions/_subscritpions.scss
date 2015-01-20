@@ -317,3 +317,13 @@
 	@include margin_properties_all(left, 30px);
 
 }
+
+//Facilitator Stylesheets.
+
+.sub-facilitator-form-inline{
+	@extend .sub-personal-form-inline;
+}
+
+.sub-facilitator-label{
+	@extend .sub-personal-label;
+}
